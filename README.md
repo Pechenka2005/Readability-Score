@@ -6,7 +6,7 @@ You can look at different ages corresponding to the different scores by the tabl
 
 The first one is **Flesch–Kincaid readability** tests. To calculate this, you also need to create a method that calculates a number of syllables in a word. The formula is listed below. You can learn more here. You can use the second formula to calculate the index - it allows you to easily calculate the age of a person using the same table from the Automated Readability Index.
 
-`score = 0.39 * words/sentences + 11.8 * syllables/words - 15.59 `
+`score = 0.39 * (words / sentences) + 11.8 * (syllables / words) - 15.59 `
 
 The second one is **SMOG index**. It stands for Simple Measure of Gobbledygook. To calculate this, you need to count the number of polysyllables which is the number of words with more than 2 syllables. The formula is shown below. You can find out more here. The Wikipedia page says that at least 30 sentences are required for this index to work properly. Don't pay attention to this, just keep it in mind when you use this index in real life. As in the previous example, the grade level is calculated here, so to get the age of a person you need to use the table from the first link.
 
